@@ -1,0 +1,2170 @@
+/*css generales*/
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.half {
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.aparece {
+    display: block!important;
+}
+
+.desaparece {
+    display: none!important;
+}
+
+.nombreHeader {
+    display: none;
+    float: left; 
+}
+
+.nombreHeader span, .nombreHeaderFijo span {
+    padding-right: 10px;
+    font-family: 'Glegoo', serif;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 16px;
+    border-right: solid #ff3e52 2px;
+    float: left;
+    margin-left: 10px;
+}
+
+.titNom, .titNomFijo {
+    border-right: 0px!important;
+    padding-left: 10px!important;
+    color: rgba(34, 34, 34, 0.47)!important;
+    margin-left: 0px!important;
+}
+
+/*css contenedor*/
+
+.contTotal {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.contPrincipal {
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.11);
+	z-index: 9;
+}
+
+.centrarHeader {
+	width: 100%;
+	float: left;
+}
+
+.contheader {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#menu {
+    float: left;
+    width: 40px;
+    height: 100%;
+    color: #ff3e52;
+    padding-top: 15px;
+    padding: 14px;
+
+}
+
+#menu i {
+	font-size: 30px;
+}
+
+.redes {
+	float: right;
+	font-size: 16px;
+}
+
+.redes span {
+	margin: 0px 10px;
+    margin: 0px 10px;
+    padding-top: 15px;
+    float: left;
+}
+
+.redes span a {
+	text-decoration: none;
+	color: #ff3e52;
+}
+
+.redes span a:hover {
+	color: #3b5eae;
+}
+
+.redTex {
+	font-size: 15px!important;
+	margin-top: 3px!important;
+	float: left!important;
+}
+
+
+.buscador {
+    float: right;
+    width: 150px;
+    height: 78px;
+    background-color: #3b5eae;
+    color: #fff;
+}
+
+.buscador form {
+    float: left;
+    padding: 14px;
+    margin-top: 26px;
+}
+
+.buscador form input {
+    background-color: rgba(130, 156, 214, 0.08);
+    border: none;
+    width: 90px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 7px;
+    border-radius: 7px;
+}
+
+.buscador form a {
+	float: right;
+	color: #fff;
+	cursor: pointer;
+}
+
+.buscador form a:hover {
+	color: #ff3e52;
+}
+
+.modPrincipal {
+    background-repeat-x: no-repeat;
+    background-image: url(images/imagen.jpg);
+    width: 100%;
+    float: left;
+    height: 530px;
+    background-size: cover;
+    margin-bottom: 109px;
+}
+
+.cajaNombre {
+    float: left;
+    width: 500px;
+    color: #fff;
+    font-size: 130px;
+    font-family: 'Kalam', cursive;
+    height: 400px;
+    margin-left: 54px;
+    background: #3b5eae; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(59, 94, 174, 0.64), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(59, 94, 174, 0.64), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(59, 94, 174, 0.64), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(59, 94, 174, 0.64), transparent); /* Standard syntax (must be last) */
+}
+
+.cajaNombre span {
+    font-weight: 800;
+    font-size: 100px;
+    padding: 27px;
+    width: 89%;
+    float: left;
+    line-height: 92px;
+    padding-top: 108px;
+}
+
+.linea {
+    background-color: #ff3e52;
+    width: 89%;
+    height: 4px;
+    float: left;
+    margin: 0px 27px;
+}
+
+.textCaja {
+    font-size: 20px!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300!important;
+    letter-spacing: 8px;
+    padding: 0px 27px!important;
+    line-height: 50px!important;
+}
+
+
+.fraseDiaria {
+    width: 960px;
+    background: #f1f1f1;
+    height: auto;
+    font-size: 44px;
+    font-family: 'Kalam', cursive;
+    margin: 20px 50px;
+       padding: 5px 20px 20px;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 400;
+    position: absolute;
+    top: 409px;
+}
+
+.textCaja.chica {
+    color: #ff3e52;
+    font-size: 15px!important;
+    width: 85%;
+}
+
+.comillas {
+	color: #ff3e52;
+}
+
+.modulo {
+    float: left;
+    width: 1000px;
+    margin: 0px 50px 20px;
+}
+
+.video {
+	float: left;
+	width: 100%;
+}
+
+.nota {
+    float: left;
+    width: 323px;
+    height: 357px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.nota:last-child {
+	margin-right: 0px;
+}
+
+.linea.azul {
+    background-color: #3b5eae!important;
+    width: 200px;
+    margin: 5px 0px;
+}
+
+.tituloNota {
+    float: left;
+    width: 100%;
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tituloNota a {
+	text-decoration: none;
+	color: #222222;
+}
+
+.tituloNota a:hover {
+	color: #909090;
+}
+
+.teaser {
+    float: left;
+    color: #909090;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    height: 65px;
+    overflow: hidden;
+}
+
+.modulo.azul {
+    background-color: #3b5eae;
+    height: 400px;
+}
+
+.titModulo {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.titModulo span {
+    font-size: 35px;
+    font-family: 'Glegoo', serif;
+    background-color: #2e69b9;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 70px;
+}
+
+.libros {
+    float: left;
+    width: auto;
+    margin: 0px 84px;
+    margin-top: 40px;
+}
+
+.infoLibro {
+    margin: 0 auto;
+    width: 82%;
+}
+
+.libro {
+    float: left;
+    width: 257px;
+    height: 360px;
+    margin: 10px;
+}
+
+.linea.azul.color {
+	background-color: #ff3e52!important;
+	width: 100px!important;
+}
+
+.tituloNota.blanco {
+    line-height: 24px;
+    font-size: 16px!important;
+}
+
+.tituloNota.blanco a {
+	color: #fff;
+	font-weight: 300;
+}
+
+.tituloNota.blanco a:hover  {
+	color: #ff3e52;
+}
+
+.subLibro {
+	color: #ff3e52;
+	font-size: 15px;
+	float: left;
+}
+
+.cajaLibro {
+    float: left;
+    width: 100%;
+    height: 241px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 4px 5px 12px rgba(34, 34, 34, 0.2);
+}
+
+.cajaLibro img {
+    width: 56%;
+    margin-top: 20px;
+}
+
+.modulo.margen {
+	margin-top: 168px;
+	margin-bottom: 80px;
+} 
+
+.bannerM {
+	width: 300px;
+	float: left;
+}
+
+.modulo.interno {
+	margin: 0px;
+}
+
+.conferencias {
+    background-color: #f1f1f1;
+    float: left;
+    width: 680px;
+    margin-left: 20px;
+    height: 600px;
+}
+
+.titModulo.gris {
+    float: left;
+    width: 85%;
+    padding: 10px 10px 10px 50px;
+    text-align: left;
+}
+
+.titModulo.gris span {
+	background-color: #e5e4e4;
+	color: #222222;
+}
+
+.nota.chica {
+    width: 280px;
+    height: 420px;
+}
+
+.notasGrises {
+    width: 85%;
+    margin: 20px 50px;
+    float: left;
+    margin-top: 60px;
+}
+
+.imgGris {
+    width: 100%;
+    height: 269px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.imgGris img {
+	width: 405px;
+}
+
+.item {
+    width: 168px;
+    height: 168px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin: 20px;
+}
+
+.plus {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(59, 94, 174, 0.35);
+    border-radius: 50px;
+    margin: 64px;
+}
+
+.plus i {
+    margin-top: 13px;
+}
+
+.plus a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.plus a:hover {
+	color: #ff3e52;
+}
+
+.item img {
+	width: 280px;
+}
+
+.galerias {
+    width: 832px;
+    margin: 0px 84px;
+    float: left;
+}
+
+.modulo.azul.galeria {
+	height: auto;
+} 
+
+.buscadorMobile {
+    color: #ffffff;
+    padding: 10px;
+    width: 40px;
+    height: 33px;
+    float: left;
+    background: #3b5eae;
+    text-align: center;
+}
+
+.buscadorMobile a {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.cajaBuscador {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background: #3b5eae;
+    height: 44px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.cajaBuscador input {
+    background-color: transparent;
+    border-bottom: solid #6e83b2 2px!important;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+}
+
+.cajaBuscador a i {
+    color: #fff;
+}
+
+.cajaBuscador a i:hover {
+    color: #6e83b2;
+}
+
+.close {
+    float: right;
+    width: auto;
+    text-align: right;
+    padding: 5px;
+    color: #ffffff;
+    margin-right: 51px;
+    cursor: pointer;
+}
+
+/* columna izquierda */
+
+.colIzquierda {
+    float: left;
+    width: 66%;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Glegoo', serif;
+}
+
+.lR {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.lR span {
+    width: 40px;
+    height: 3px;
+    background-color: #ff3e52;
+    float: left;
+    margin: 0px 46%;
+}
+
+
+.cuerpoText {
+    float: left;
+    width: 100%;
+    margin: 30px 0px;
+    line-height: 31px;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 25px;
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.modulo.relacionadas {
+    float: left;
+    margin: 0px;
+    width: 100%;
+}
+
+.nota.relacionada {
+    width: 48%;
+}
+
+.titSeccion {
+    float: left;
+    width: 100%;
+    margin: 20px 0px;
+}
+.linSecc {
+    float: left;
+    width: 100px;
+    height: 3px;
+    background-color: #ff3e52;
+}
+
+.titSeccion span {
+    float: left;
+    width: 100%;
+    font-family: 'Glegoo', serif;
+    font-size: 30px;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.fraseDiaria.sidebar {
+    float: left;
+    position: initial;
+    width: 87%;
+    margin: 10px 0px;
+}
+
+.fraseDiaria.sidebar span {
+    font-size: 20px;
+    line-height: 27px;
+    float: left;
+}
+
+.modSide {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.titSeccion.side span{
+
+    font-size: 25px;
+}
+
+.nota.side {
+    width: 100%;
+}
+
+/*historico */
+
+.histPrin {
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.infoHist {
+    padding: 10px;
+    float: left;
+}
+
+.notaHist {
+    float: left;
+    width: 343px;
+    border-top: solid #3b5eae 2px;
+    margin: 10px;
+}
+
+.infoHist.centrado {
+    text-align: center;
+}
+
+/* video */
+
+.video.single {
+    width: 70%;
+    margin-right: 20px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.modulo.VS {
+    margin-top: 91px!important;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.otrosVid {
+    float: left;
+    width: 300px;
+    height: 800px;
+}
+
+.masVideos {
+    float: left;
+    background: #f1f1f1;
+    height: 500px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.titVideoPrin {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Glegoo', serif;
+}
+
+ .oV {
+    float: left;
+    width: 93%;
+    margin: 10px;
+    height: 81px;
+}
+.oV img {
+    float: left;
+    width: 42%;
+}
+
+.oV span {
+    float: left;
+    width: 46%;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.oV span a {
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Glegoo', serif;
+    margin-top: 10px;
+    float: left;
+}
+
+.verMas a {
+    float: left;
+    color: #ff3e52!important;
+    font-size: 15px!important;
+        margin-top: 0px!important;
+}
+
+.modulo.interesar {
+    margin: 0px;
+    width: 100%;
+    background-color: #3b5eae;
+    float: left;
+} 
+
+.linea.azul.rosa {
+    background-color: #ff3e52!important;
+}
+
+.tituloNota.video a, .teaser.video {
+    color: #fff;
+}
+
+.nota.video {
+    margin: 30px 15px;
+}
+
+.cajaMenu {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    background: rgba(34, 34, 34, 0.87);
+    width: 100%;
+    border-right: solid #3b5eae 2px;
+    height: 100%;
+}
+
+.itemMenu {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: solid rgba(238, 238, 238, 0.07) 2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Glegoo', serif;
+    color: #222222;
+}
+
+.itemMenu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.itemMenu a:hover, .close i:hover {
+    color: #ff3e52;
+}
+
+.close.menu {
+    margin-right: 0px!important;
+    padding: 20px;
+}
+
+.close.galeria {
+    margin-right: 0px!important;
+    padding: 0px;
+    margin-bottom: 30px!important;
+    color: #222222!important;
+    padding-top: 28px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background: #353840;
+    color: #fff;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.centrarFooter {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.nombreHeader.footer span, .titNom.footer span{
+    color: #fff!important;
+}
+
+
+.redes.footer {
+    font-size: 27px;
+    padding: 3px;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    background: rgba(34, 34, 34, 0.27);
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.fotoGal {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.teaser.galeria {
+    width: 71%;
+    text-align: center;
+    color: #222222;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 20px 15%;
+    height: 104px;
+}
+
+.sig {
+    padding: 10px;
+    float: right;
+    margin: 30px 0px;
+    background: #fff;
+    border: none;
+    color: #3b5eae;
+    outline: none;
+    cursor: pointer;
+}
+
+.sig:hover {
+    color: #ff3e52;
+}
+
+button {
+    background-color: #3b5eae;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    padding: 12px;
+    margin: 20px 22%;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 56%;
+}
+
+button:hover {
+    color: #ff3e52;
+}
+
+.centrarFooter.galeria {
+    background-color: #222222;
+    box-shadow: 2px 7px 11px 1px rgba(0, 0, 0, 0.31);
+    background: #fff;
+    height: 693px;
+    width: 800px;
+}
+
+.modulo.vH {
+    background-color: #f1f1f1;
+}
+
+.play {
+    position: absolute;
+    font-size: 80px;
+    margin: 75px 127px;
+}
+
+.play i {
+    color: rgba(255, 255, 255, 0.41);
+}
+
+.nota.vH {
+    margin: 80px 10px 10px;
+    width: 312px;
+}
+
+.titModulo.gris.vH {
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.linea.gris {
+    margin: 0px;
+    background: #e5e4e4;
+    width: 200px;
+}
+
+
+.modServicios {
+    float: left;
+    width: 100%;
+    margin: 90px 0px 50px;
+}
+
+.serv {
+    width: 46%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.serv img {
+    width: 100%;
+    float: left;
+}
+
+.ficha {
+    float: left;
+    width: 100%;
+}
+
+.titEvento {
+    float: left;
+    width: 100%;
+    font-size:30px!important;
+    font-family: 'Glegoo', serif;
+    padding: 10px 10px 0px;
+}
+
+.ficha span {
+    padding: 10px 10px 0px;
+    color: #222222;
+     font-size: 15px;
+}
+
+.ficha span i {
+    color: #ff3e52;
+    padding: 10px;
+}
+
+.descripcionEv {
+    padding: 0px 15px!important;
+    float: left!important;
+    line-height: 25px;
+    font-size: 14px!important;
+}
+
+
+/* media queries */
+
+/*********************0 a 479*******************/
+
+@media (max-width: 479px){
+
+.serv {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.ficha span {
+    width: 90%;
+    float: left;
+}
+
+.descripcionEv {
+    padding: 20px 15px!important;
+}
+
+.contTotal {
+    width: 320px;
+}
+
+.contheader {
+    width: 100%;
+}
+
+.buscadorMobile {
+    display: block;
+}
+
+.buscador, .redTex, .redes span {
+    display: none;
+}
+
+header {
+    height: 53px;
+}
+
+#menu {
+    padding: 7px;
+    margin-left: 0px;
+    background: #ff3e52;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.redes span {
+    padding-top: 9px;
+}
+
+.cajaNombre { 
+    width: 100%;
+    margin-left: 0px;
+    height: 250px;
+}
+
+.cajaNombre span {
+    font-size: 36px;
+    width: 83%;
+    line-height: 49px;
+    padding-bottom: 0px;
+}
+
+.linea {
+    width: 83%;
+}
+
+.modPrincipal {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.fraseDiaria {
+    width: 94%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+    line-height: 33px;
+    position: initial;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.textCaja {
+    letter-spacing: 6px;
+}
+
+.modulo {
+    width: 100%;
+    margin: 0px;
+}
+
+.nota {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    overflow: visible;
+    margin-bottom: 20px;
+}
+
+.libros {
+    width: 100%;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.libro {
+    margin-left: 31px;
+}
+
+.modulo.azul {
+    height: auto;
+}
+
+.cajaLibro {
+    margin-top: 20px;
+}
+
+.modulo.margen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bannerM {
+    margin-left: 11px;
+}
+
+.conferencias {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.titModulo.gris {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    float: initial;
+}
+
+.titModulo.gris span {
+    padding: 10px;
+}
+
+.notasGrises {
+    width: 90%;
+    margin: 16px;
+    margin-top: 20px;
+}
+
+.galerias {
+    width: 100%;
+    margin: 0px;
+}
+
+.item {
+    width: 119px;
+    height: 119px;
+}
+
+.plus {
+    margin: 40px;
+}
+
+/* single */
+
+.colIzquierda {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.fraseDiaria.sidebar {
+    width: 91%;
+}
+
+/* historico */
+
+.notaHist {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* video */
+
+.video.single {
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    overflow: visible;
+}
+
+.lR span {
+    margin: 0px 43%;
+}
+
+.otrosVid {
+    width: 100%;
+}
+
+.titModulo.largo span {
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.modulo.interesar {
+    width: 100%;
+}
+
+.nota.video {
+    margin: 20px;
+    width: 87%;
+}
+
+.centrarFooter.galeria {
+    height: 500px;
+    width: 300px;
+}
+
+.fotoGal {
+    width: 80%;
+}
+
+.nota.vH {
+    margin: 10px;
+    width: 296px;
+}
+
+
+}
+
+
+
+
+/*********************480 a 639*******************/
+
+@media (min-width: 480px) and (max-width: 639px){
+
+.serv {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.ficha span {
+    width: 90%;
+    float: left;
+}
+
+.descripcionEv {
+    padding: 20px 15px!important;
+}
+
+
+.contTotal {
+    width: 480px;
+}
+
+.contPrincipal {
+    width: 96%;
+}
+
+.contheader {
+    width: 100%;
+}
+
+.buscadorMobile {
+    display: block;
+}
+
+.buscador, .redTex, .redes span {
+    display: none;
+}
+
+header {
+    height: 53px;
+}
+
+#menu {
+    padding: 7px;
+    margin-left: 0px;
+    background: #ff3e52;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.redes span {
+    padding-top: 9px;
+}
+
+.cajaNombre { 
+    width: 100%;
+    margin-left: 0px;
+    height: 250px;
+}
+
+.cajaNombre span {
+    font-size: 36px;
+    width: 83%;
+    line-height: 49px;
+    padding-bottom: 0px;
+}
+
+.linea {
+    width: 83%;
+}
+
+.modPrincipal {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.fraseDiaria {
+    width: 96%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+    line-height: 33px;
+    position: initial;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.textCaja {
+    letter-spacing: 6px;
+}
+
+.modulo {
+    width: 100%;
+    margin: 0px;
+}
+
+.nota {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    overflow: visible;
+    margin-bottom: 20px;
+}
+
+.libros {
+    width: 100%;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.libro {
+    margin-left: 23%;
+}
+
+.modulo.azul {
+    height: auto;
+}
+
+.cajaLibro {
+    margin-top: 20px;
+}
+
+.modulo.margen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bannerM {
+    margin-left: 18%;
+}
+
+.nota.chica {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.conferencias {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.titModulo.gris {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    float: initial;
+}
+
+.titModulo.gris span {
+    padding: 10px;
+}
+
+.notasGrises {
+    width: 90%;
+    margin: 16px 23px;
+    margin-top: 20px;
+}
+
+.imgGris img {
+    width: 100%;
+}
+
+.galerias {
+    width: 100%;
+    margin: 0px;
+}
+
+.item {
+    width: 190px;
+    height: 190px;
+}
+
+.plus {
+    margin: 75px;
+}
+
+/* single */
+
+.colIzquierda {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.fraseDiaria.sidebar {
+    width: 91%;
+}
+
+/* historico */
+
+.notaHist {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* video */
+
+.video.single {
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    overflow: visible;
+}
+
+.oV img {
+    width: 28%;
+    margin-right: 20px;
+}
+
+.lR span {
+    margin: 0px 43%;
+}
+
+.otrosVid {
+    width: 100%;
+}
+
+.oV span {
+    width: 64%;
+}
+
+.titModulo.largo span {
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.modulo.interesar {
+    width: 100%;
+}
+
+.nota.video {
+    margin: 20px;
+    width: 91%;
+}
+
+.centrarFooter.galeria {
+    height: 550px;
+    width: 400px;
+}
+
+.fotoGal {
+    width: 80%;
+}
+
+.nota.vH {
+    margin: 80px 10px 10px;
+    width: 95%;
+}
+
+}
+
+
+
+
+/*********************640 a 767*******************/
+
+@media (min-width: 640px) and (max-width: 767px){
+
+.serv {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.ficha span {
+    width: 90%;
+    float: left;
+}
+
+.descripcionEv {
+    padding: 20px 15px!important;
+}
+
+
+.contTotal {
+    width: 640px;
+}
+
+.contPrincipal {
+    width: 96%;
+}
+
+.contheader {
+    width: 100%;
+}
+
+.buscadorMobile {
+    display: block;
+}
+
+.buscador, .redTex, .redes span {
+    display: none;
+}
+
+header {
+    height: 53px;
+}
+
+#menu {
+    padding: 7px;
+    margin-left: 0px;
+    background: #ff3e52;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.redes span {
+    padding-top: 9px;
+}
+
+.cajaNombre { 
+    width: 100%;
+    margin-left: 0px;
+    height: 250px;
+}
+
+.cajaNombre span {
+    font-size: 36px;
+    width: 83%;
+    line-height: 49px;
+    padding-bottom: 0px;
+}
+
+.linea {
+    width: 83%;
+}
+
+.modPrincipal {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.fraseDiaria {
+    width: 97%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+    line-height: 33px;
+    position: initial;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.textCaja {
+    letter-spacing: 6px;
+}
+
+.modulo {
+    width: 100%;
+    margin: 0px;
+}
+
+.nota {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    overflow: visible;
+    margin-bottom: 20px;
+}
+
+.libros {
+    width: 100%;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.libro {
+    margin-left: 29px;
+}
+
+.modulo.azul {
+    height: auto;
+}
+
+.cajaLibro {
+    margin-top: 20px;
+}
+
+.modulo.margen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bannerM {
+    margin-left: 26%;
+}
+
+.nota.chica {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.conferencias {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.titModulo.gris {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    float: initial;
+}
+
+.titModulo.gris span {
+    padding: 10px;
+}
+
+.notasGrises {
+    width: 92%;
+    margin: 16px 23px;
+    margin-top: 20px;
+}
+
+.imgGris img {
+    width: 100%;
+}
+
+.galerias {
+    width: 100%;
+    margin: 0px;
+}
+
+.item {
+    width: 266px;
+    height: 190px;
+}
+
+.plus {
+    margin: 70px 113px;
+}
+
+/* single */
+
+.colIzquierda {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.fraseDiaria.sidebar {
+    width: 96%;
+}
+
+.nota.side {
+    width: 48%;
+    margin: 5px;
+}
+
+.nota.relA {
+    width: 48%;
+    margin: 5px;
+}
+
+/* historico */
+
+.notaHist {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* video */
+
+.video.single {
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    overflow: visible;
+}
+
+.oV img {
+    width: 21%;
+    margin-right: 20px;
+}
+
+.lR span {
+    margin: 0px 43%;
+}
+
+.otrosVid {
+    width: 100%;
+}
+
+.oV span {
+    width: 71%;
+}
+
+.titModulo.largo span {
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.modulo.interesar {
+    width: 100%;
+}
+
+.nota.video {
+    margin: 40px 10px 40px;
+    width: 46%;
+}
+
+.nota.video:last-child {
+    display: none;
+}
+
+.centrarFooter.galeria {
+    height: 657px;
+    width: 600px;
+}
+
+.fotoGal {
+    width: 80%;
+}
+
+.nota.vH {
+    margin: 10px;
+    width: 97%;
+}
+
+
+}
+
+
+
+
+/*********************768 a 1023*******************/
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+.serv {
+    width: 44%;
+}
+
+.ficha span {
+    padding: 10px 10px 0px;
+    width: 94%;
+    float: left;
+}
+
+.descripcionEv {
+    padding: 20px 15px!important;
+    width: 90%!important;
+}
+
+
+.cajaBuscador input {
+    margin-left: 107px;
+}
+
+.contTotal {
+    width: 768px;
+}
+
+.contPrincipal {
+    width: 96%;
+}
+
+.contheader {
+    width: 100%;
+}
+
+.buscadorMobile {
+    display: block;
+}
+
+.buscador, .redTex, .redes span {
+    display: none;
+}
+
+header {
+    height: 53px;
+}
+
+#menu {
+    padding: 7px;
+    margin-left: 0px;
+    background: #ff3e52;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.fraseDiaria {
+    width: 672px;
+    font-size: 37px;
+    margin: 20px 14px;
+    font-weight: 400;
+}
+
+.modulo {
+    float: left;
+    width: 96%;
+    margin: 0px 13px 20px;
+}
+
+.nota.banner {
+    width: 100%;
+    height: auto;
+}
+
+.nota {
+    width: 340px;
+    height: 357px;
+    margin-right: 7px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.libros {
+    margin: 0px 29px;
+}
+
+.libro {
+    width: 195px;
+    height: 366px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.cajaLibro {
+    height: 204px;
+}
+
+.modulo.margen {
+    margin-top: 80px;
+}
+
+.half {
+    width: 300px;
+    height: 600px;
+    margin: 0px 71% 20px;
+}
+
+.nota.chica {
+    width: 279px;
+    height: 420px;
+}
+
+.galerias {
+    width: 644px;
+    margin: 0px 32px;
+}
+
+.item {
+    width: 121px;
+    height: 121px;
+}
+
+.plus {
+    margin: 41px;
+}
+
+/* single */
+
+.colIzquierda {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.nota.side {
+    width: 48%;
+}
+
+.fraseDiaria.sidebar {
+    width: 94%;
+}
+
+.textCaja.chica {
+    width: 93%;
+}
+
+.half.side {
+    margin: 0px 31%;
+}
+
+/* historico */
+
+
+.notaHist {
+    width: 348px;
+}
+
+
+/* video */
+
+.video.single {
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    overflow: visible;
+}
+
+.oV img {
+    width: 34%;
+    margin-right: 20px;
+}
+
+.lR span {
+    margin: 0px 43%;
+}
+
+.otrosVid {
+    width: 100%;
+    height: 693px;
+}
+
+.oV span {
+    width: 55%;
+}
+
+.masVideos {
+    height: 400px;
+}
+
+.titModulo.largo span {
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.modulo.interesar {
+    width: 100%;
+}
+
+.nota.video {
+    margin: 40px 10px 40px;
+    width: 30%;
+    height: 300px;
+}
+
+.oV {
+    float: left;
+    width: 47%;
+    margin: 10px;
+    height: 81px;
+}
+
+.linea.azul.rosa {
+    width: 100px;
+}
+
+.centrarFooter.galeria {
+    height: 708px;
+    width: 700px;
+}
+
+.fotoGal {
+    width: 80%;
+}
+
+.nota.vH {
+    margin: 9px;
+    width: 217px;
+}
+
+
+}
+
+
+
+/*********************1024 a 1199*******************/
+
+@media (min-width: 1024px) and (max-width: 1199px){
+
+.serv {
+    width: 45%;
+}
+
+.contTotal {
+    width: 1024px;
+}
+
+.contPrincipal {
+    width: 96%;
+}
+
+.contheader {
+    width: 100%;
+}
+
+.buscadorMobile {
+    display: none;
+}
+
+.buscador, .redTex, .redes span {
+    display: block;
+}
+
+.fraseDiaria {
+    width: 904px;
+    margin: 20px 20px;
+    padding: 5px 20px 20px;
+    top: 409px;
+}
+
+.modulo {
+    width: 947px;
+    margin: 0px 20px 20px;
+}
+
+.nota {
+    float: left;
+    width: 305px;
+    height: 357px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.libro {
+    width: 239px;
+}
+
+.libros {
+    float: left;
+    width: auto;
+    margin: 0px 84px;
+    margin-top: 40px;
+}
+
+.conferencias {
+    width: 627px;
+}
+
+.nota.chica {
+    width: 257px;
+}
+
+.galerias {
+    width: 808px;
+    margin: 0px 70px;
+}
+
+.item {
+    width: 161px;
+    height: 161px;
+}
+
+.plus {
+    margin: 60px;
+}
+
+/* single */
+
+.colIzquierda {
+    margin-top: 90px;
+}
+
+.sidebar {
+    margin-top: 90px;
+}
+
+/* historico */
+
+.notaHist {
+    float: left;
+    width: 304px;
+    border-top: solid #3b5eae 2px;
+    margin: 10px;
+}
+
+/*videos */
+
+.video.single {
+    width: 67%;
+}
+
+.modulo.interesar {
+    width: 100%;
+}
+
+.nota.video {
+    width: 297px;
+}
+
+.linea.azul.rosa {
+    width: 150px;
+}
+
+.cajaMenu {
+    width: 36%;
+}
+
+.itemMenu {
+    width: 89%;
+}
+
+.nota.vH {
+    margin: 80px 10px 10px;
+    width: 295px;
+}
+
+}
+
+
+
+
+/*********************1200 a infinito*******************/
+
+@media (min-width: 1200px){
+
+
+.buscadorMobile {
+    display: none;
+}
+
+.sidebar, .colIzquierda {
+    margin-top: 86px;
+}
+
+.cajaMenu {
+    width: 18%;
+}
+
+.itemMenu {
+    width: 86%;
+}
+
+}
